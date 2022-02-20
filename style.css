@@ -48,7 +48,7 @@ body {
     font-size: 11px; text-align: center;
     position: absolute;
     left: 50%;
-    top: 98%;
+    top: 95%;
     transform: translateX(-50%);
     color: #fff;
 }
@@ -166,4 +166,10 @@ h1:hover,
 span:hover {
     color: #00fff7;
     cursor: pointer;
+}
+
+@media (max-width: 30em) {
+    html {
+        font-size: 55%;
+    }
 }
